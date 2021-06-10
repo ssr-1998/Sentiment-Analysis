@@ -10,8 +10,10 @@ This dataset is having 50,000 movie reviews for natural language processing or T
 This is a dataset for binary sentiment classification.
 I divided the dataset into a set of 32,000 highly polar movie reviews for training, 8,000 for Validation & 10,000 for testing.
 
+# Word Embeddings
 Using Bag of Words, I converted Customer Review Strings to Vectors.
 
+# Modeling
 Hypre-Parameter Tuning is used for getting best model out of an algorithm. I compared many Algorithms after Hyper-Parameter Tuning.
 
 Algorithms Compared for Validation & Test Sets are :
@@ -21,6 +23,7 @@ Algorithms Compared for Validation & Test Sets are :
     XGBoost
     Multi-Nomial Naive Bayes
 
+# Metrics
 Metrics Used to Compare Algorithms :
 
     Accuracy Score
